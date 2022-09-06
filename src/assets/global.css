@@ -1,0 +1,49 @@
+.leftAndRight {
+    @apply
+    absolute
+    flex
+    justify-between
+    w-full
+    top-0
+}
+
+.swiper-button-prev {
+    @apply
+    hidden
+    w-[70px]
+    h-[70px]
+    after:content-['']
+    xl:flex
+}
+.swiper-button-next {
+    @apply
+    hidden
+    w-[70px]
+    h-[70px]
+    after:content-['']
+    xl:flex
+    right-0
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    @apply
+    fill-[#9F9F9F]
+}
+.swiper-pagination .swiper-pagination-bullet {
+    @apply
+    bg-none
+    border-none
+    outline-none
+    w-5
+    h-[10px]
+    rounded-[10px]
+    bg-[#7A91A7]
+    opacity-[35%]
+
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+    @apply
+    bg-[#7A91A7]
+    opacity-100
+    w-[60px]
+}
+

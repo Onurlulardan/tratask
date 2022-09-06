@@ -1,0 +1,188 @@
+.main {
+    @apply
+    container mx-auto
+}
+
+.sliderCover {
+    @apply 
+    container mx-auto
+    relative
+}
+.slideritem {
+    @apply
+    flex
+    flex-wrap
+    justify-center
+}
+.textCover {
+    @apply
+    xl:pr-[140px]
+    md:pr-[40px]
+}
+.sliderHeader {
+    @apply
+    font-Poppins
+    font-semibold
+    text-[40px]
+    leading-[56px]
+    text-[#5F3627]
+    text-center
+    pt-16
+    pb-10
+}
+.sliderText {
+    @apply
+    font-Poppins
+    font-medium
+    text-[23px]
+    leading-8
+    text-black
+    text-center
+}
+.sliderimg{
+    @apply
+    rounded-[30px]
+    max-w-[450px]
+    max-h-[290px]
+    shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]
+}
+.swiperButtonCover {
+    @apply
+    absolute
+    flex
+    w-full
+    justify-between
+    top-1/2
+}
+.swiperPeginationCover {
+    @apply
+    flex
+    justify-center
+    w-full
+    h-5
+    relative
+    mt-[75px]
+}
+.mindSection {
+    @apply
+    container mx-auto
+    mt-20
+}
+.mindText {
+    @apply
+    text-center
+}
+.mindText > h1 {
+    @apply
+    text-[40px]
+    leading-[56px]
+    font-Poppins
+    font-medium
+    text-black
+}
+.mindText > p {
+    @apply
+    font-Poppins
+    font-medium
+    text-black
+    text-[19px]
+    leading-6
+    max-w-[700px]
+    mx-auto
+    mt-5
+}
+.mindBottom {
+    @apply
+    container mx-auto
+    flex
+    justify-between
+    flex-wrap
+    mt-10
+}
+.mindBottomItem {
+    @apply
+    max-w-[332px]
+    pt-5
+}
+.mindbottomText > h1 {
+    @apply
+    font-Poppins
+    text-base
+    text-black
+    font-medium
+    text-center
+    mt-[30px]
+    mb-5
+}
+.mindbottomText > p {
+    @apply
+    font-Poppins
+    text-base
+    text-[#2C2C2C]
+    font-normal
+    text-center
+}
+.bottomSection {
+    @apply
+    container mx-auto
+    flex
+    flex-col
+    mt-[130px]
+    items-center
+    xl:justify-between
+    xl:flex-row
+    w-full
+}
+.bottomSectionImg {
+    @apply
+    rounded-[30px]
+    lg:pb-8
+    pr-0
+    lg:pr-12
+}
+.bottomSectionText {
+    @apply
+    max-w-[728px]
+}
+.bottomSectionText > p {
+    @apply
+    text-base
+    text-black
+    font-Poppins
+    font-normal
+}
+.bottomSectionText > ul {
+    @apply
+    text-base
+    text-black
+    font-Poppins
+    font-normal
+    mt-5
+    pl-5
+}
+.bottomSectionText > ul > li {
+    @apply
+    list-disc
+    text-[#94B49F]
+}
+.bottomSectionText > ul > li > p{
+    @apply
+    text-base
+    text-black
+    font-Poppins
+    font-normal
+}
+.bottomSectionText > button {
+    @apply
+    mt-10
+    px-6
+    py-3
+    bg-[#AC7088]
+    rounded-[5px]
+    text-white
+    font-Poppins
+    text-[19px]
+    leading-7
+    font-medium
+    shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)]
+}

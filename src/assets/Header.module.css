@@ -1,0 +1,40 @@
+.header {
+    @apply
+    flex
+    container mx-auto
+    justify-center
+    lg:justify-between
+    mt-[50px]
+    mb-[70px]
+}
+.header > div {
+    @apply
+    first:hidden
+    last:hidden
+    lg:first:flex
+    lg:last:flex
+}
+.list {
+    @apply
+    flex
+}
+.listitem {
+    @apply
+    pr-[50px]
+    font-Poppins
+    text-base
+    font-medium
+    text-black
+}
+.listLast {
+    @apply
+    pr-0
+}
+.logo{
+    @apply
+    font-Poppins
+    text-3xl
+    font-medium
+    leading-6
+    text-black
+}

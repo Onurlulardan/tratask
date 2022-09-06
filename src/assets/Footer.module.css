@@ -1,0 +1,42 @@
+.footer {
+    @apply
+    container mx-auto
+    flex
+    flex-col
+    flex-wrap
+    justify-between
+    mt-[110px]
+}
+.footerTop {
+    @apply
+    h-[2px]
+    bg-gradient-to-r from-[rgba(236,204,178,0)] via-[rgba(236,204,178,1)] to-[rgba(236,204,178,0)]
+}
+.footerContent {
+    @apply
+    mt-8
+    pb-8
+}
+
+.footerH1 {
+    @apply
+    flex
+    flex-wrap
+    justify-between
+    font-Poppins
+    font-medium
+    text-black
+    text-sm
+    leading-4
+}
+.footerP {
+    @apply
+    flex
+    flex-wrap
+    justify-between
+    font-Poppins
+    font-normal
+    text-black
+    text-sm
+    leading-4
+}
